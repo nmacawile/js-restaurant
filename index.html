@@ -2,12 +2,145 @@
 <html lang="en-us">
   <head>
     <meta charset="utf-8">
-    <title>Restaurant</title>
+    <title>The Burger Place</title>
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <link href="https://fonts.googleapis.com/css?family=Great+Vibes" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Passion+One:400,700" rel="stylesheet">
+    <link href="assets/normalize.css" rel="stylesheet">
     <link href="assets/styles.css" rel="stylesheet">
   </head>
   <body>
-    
+    <div class="wrapper">
+      <div class="parallax main-parallax">
+        <div class="parallax-content">
+          <div class="logo">
+            <div>The</div>
+            <div>Burger</div>
+            <div>Place</div>
+          </div>
+        </div>
+        <div class="parallax-background"
+             style="background-image: url('assets/images/bread-breakfast-burger-1108117.jpg');">
+        </div>
+      </div>
+
+      <div class="header">
+        <ul class="header-nav">
+          <li><a href="#" class="links" id="home-link" data-tab="1">Home</a></li>
+          <li><a href="#" class="links" data-tab="2">Menu</a></li>
+          <li><a href="#" class="links" data-tab="3">Contact Us</a></li>
+        </ul>
+      </div>
+
+      <div class="main">
+        <div class="container home-tab-content tab-1">
+          <h2 class="content-heading">The Restaurant</h2>
+          <ul class="about-list">
+            <li>
+              <div class="about-number">01</div>
+              <h3>100% Fresh meat</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In in libero in lectus placerat rutrum. Phasellus finibus, nunc quis semper sollicitudin, sapien augue tempus urna.</p>
+            </li>
+            <li>
+              <div class="about-number">02</div>
+              <h3>Handcrafted burgers</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In in libero in lectus placerat rutrum. Phasellus finibus, nunc quis semper sollicitudin, sapien augue tempus urna.</p>
+            </li>
+            <li>
+              <div class="about-number">03</div>
+              <h3>All natural ingredients </h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In in libero in lectus placerat rutrum. Phasellus finibus, nunc quis semper sollicitudin, sapien augue tempus urna.</p>
+            </li>
+          </ul>
+        </div>
+
+        <div class="container menu-tab-content tab-2 hidden">
+          <h2 class="content-heading">Menu</h2>
+          <ul class="menu">
+            <li>
+              <a href="#">
+                <img src="assets/images/hamburger-food-meal-tasty-47725.jpeg">
+                <h4>Burger #1</h4>              
+              </a>
+              <p>Donec sed nibh feugiat, tincidunt odio sed, laoreet nisl. Cras condimentum purus mi, at commodo neque rhoncus ac. Fusce nec.</p>
+            </li>
+            <li>
+              <a href="#">
+                <img src="assets/images/pexels-photo-460595.jpeg">
+                <h4>Burger #2</h4>              
+              </a>
+              <p>Donec sed nibh feugiat, tincidunt odio sed, laoreet nisl. Cras condimentum purus mi, at commodo neque rhoncus ac. Fusce nec.</p>
+            </li>
+            <li>
+              <a href="#">
+                <img src="assets/images/pexels-photo-552056.jpeg">
+                <h4>Burger #3</h4>              
+              </a>
+              <p>Donec sed nibh feugiat, tincidunt odio sed, laoreet nisl. Cras condimentum purus mi, at commodo neque rhoncus ac. Fusce nec.</p>
+            </li>
+            <li>
+              <a href="#">
+                <img src="assets/images/pexels-photo-660282.jpeg">
+                <h4>Burger #4</h4>              
+              </a>
+              <p>Donec sed nibh feugiat, tincidunt odio sed, laoreet nisl. Cras condimentum purus mi, at commodo neque rhoncus ac. Fusce nec.</p>
+            </li>
+            <li>
+              <a href="#">
+                <img src="assets/images/pexels-photo-750075.jpeg">
+                <h4>Burger #5</h4>              
+              </a>
+              <p>Donec sed nibh feugiat, tincidunt odio sed, laoreet nisl. Cras condimentum purus mi, at commodo neque rhoncus ac. Fusce nec.</p>
+            </li>
+            <li>
+              <a href="#">
+                <img src="assets/images/pexels-photo-756680.jpeg">
+                <h4>Burger #6</h4>              
+              </a>
+              <p>Donec sed nibh feugiat, tincidunt odio sed, laoreet nisl. Cras condimentum purus mi, at commodo neque rhoncus ac. Fusce nec.</p>
+            </li>          
+          </ul>
+        </div>
+
+        <div class="container contact-tab-content tab-3 hidden">           
+          <div class="location-column">
+            <h2 class="content-heading">
+              Location
+            </h2>
+            <div>
+              <p class="contact-text">
+                <u>396  Single Street, Needham City, MA 02192</u><br>
+                Opening Hours: <u>12:00 PM - 11:00 PM</u>
+              </p>
+              <div style="display: flex; justify-content: center">
+                <script src='https://maps.googleapis.com/maps/api/js?v=3.exp'></script><div style='overflow:hidden;height:200px;width:300px;'><div id='gmap_canvas' style='height:200px;width:300px;'></div><div><small><a href="embedgooglemaps.com/">https://embedgooglemaps.com/</a></small></div><div><small><a href="http://www.kumo-racing.nl/">bezoek website</a></small></div><style>#gmap_canvas img{max-width:none!important;background:none!important}</style></div><script type='text/javascript'>function init_map(){var myOptions = {zoom:10,center:new google.maps.LatLng(-21.952934226353506,-157.91684768059588),mapTypeId: google.maps.MapTypeId.ROADMAP};map = new google.maps.Map(document.getElementById('gmap_canvas'), myOptions);marker = new google.maps.Marker({map: map,position: new google.maps.LatLng(-21.952934226353506,-157.91684768059588)});infowindow = new google.maps.InfoWindow({content:'<strong>Title</strong><br><br>'});google.maps.event.addListener(marker, 'click', function(){infowindow.open(map,marker);});infowindow.open(map,marker);}google.maps.event.addDomListener(window, 'load', init_map);</script>
+              </div>
+            </div>
+          </div>
+          <div class="contact-column">
+            <h2 class="content-heading">
+              Contact
+            </h2>
+            <div>
+              <p class="contact-text">
+                email: <u>theburgerplace@email.com</u><br>              
+                tel: <u>123-456-7890</u>
+              </p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+
+      <div class="parallax parallax-short">
+        <div class="parallax-background"
+             style="background-image: url('assets/images/beef-charcoal-close-up-776314.jpg');">
+        </div>
+      </div>
+    </div>
+
+
     <script src="assets/main.js"></script>
   </body>
 </html>
