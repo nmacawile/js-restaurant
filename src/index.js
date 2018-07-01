@@ -20,7 +20,7 @@ let tabContents = document.querySelectorAll(".container")
 
 nav.addEventListener('click', e => {
   if (e.target && e.target.classList.contains("links")) {
-
+    e.preventDefault()
     let tabNumber = parseInt(e.target.dataset.tab)
     
     switch(tabNumber) {
